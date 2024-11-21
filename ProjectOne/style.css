@@ -86,11 +86,17 @@
 @media screen and (max-width: 840px) {
     
     .item .title {
+        z-index: 1;
         font-size: 6rem;
     }
 
     .item .refri {
         width: 300px;
+    }
+
+    .item .fruit {
+        z-index: 3;
+        transform: translate(-50%, 0%);
     }
 
     #prev, #next{
