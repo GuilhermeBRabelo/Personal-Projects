@@ -83,8 +83,7 @@ body {
 
 .main {
     padding: 24px;
-    /* flex-grow: 1; */
-    /* overflow-y: auto; */
+    flex-grow: 1;
 }
 
 .search-bar {
@@ -93,7 +92,7 @@ body {
     background-color: #242424;
     padding: 8px 16px;
     border-radius: 20px;
-    width: 300px;   
+    width: 300px;
 }
 
 .search-bar input {
@@ -107,13 +106,11 @@ body {
 
 .artists-grid, .albums-grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 24px;
     margin-bottom: 40px;
+    grid-auto-flow: column;
 }
-
-
-
-
 
 
 
@@ -139,10 +136,6 @@ body {
     border-radius: 50%;
     margin-bottom: 16px;
 }
-
-
-
-
 
 
 
