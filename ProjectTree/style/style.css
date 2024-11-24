@@ -83,8 +83,8 @@ body {
 
 .main {
     padding: 24px;
-    flex-grow: 1;
-    overflow-y: auto;
+    /* flex-grow: 1; */
+    /* overflow-y: auto; */
 }
 
 .search-bar {
@@ -105,18 +105,19 @@ body {
     outline: none;
 }
 
-
-
-
-
-
-.artists-grid, .albums-grid{
+.artists-grid, .albums-grid {
     display: grid;
     gap: 24px;
     margin-bottom: 40px;
 }
 
-/* .artist-card, .album-card {
+
+
+
+
+
+
+.artist-card, .album-card {
     background-color: #181818;
     padding: 16px;
     border-radius: 8px;
@@ -126,18 +127,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-} */
+}
 
 .artist-card:hover, .album-card:hover{
     background-color: #282828;
 }
-/* 
-.artist-card img, .album-card img{
+
+.artist-card img, .album-card img {
     width: 100%;
     max-height: 70%;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-bottom: 16px;
-}  */
+}
+
+
+
+
+
+
 
 .artist-card h3, .album-card h3 {
     font-size: 12px;
@@ -155,16 +162,6 @@ body {
 .content h2{
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .banner {
     display: flex;
